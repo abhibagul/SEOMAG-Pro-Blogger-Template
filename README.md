@@ -1,10 +1,11 @@
 # SEOMAG-Pro-Blogger-Template
 SEO MAG PRO is seo optimized credit free blogger template. You can use it modify it.
 
+Get notification of new themes on facebook : <a href="https://www.facebook.com/blossomthemes/?ref=bookmarks" target="_blank">https://www.facebook.com/blossomthemes/</a>
+
 <h2>Documentation</h2>
 <div class="entry-content">
 
-				<div class="separator" style="clear: both; text-align: center;">
 <img src="https://1.bp.blogspot.com/-APmBlYa_ZAs/XUqH4HZ_hQI/AAAAAAAABoY/jYJGsxBUnZsplIiXz5zpKqusyGOLNOT3gCLcBGAs/s1600/seomagpro.jpg" width="100%"></div>
 <h3 class="demo">
 Summery</h3>
@@ -181,4 +182,3 @@ Summery</h3>
 </ol>
 </div>
 
-			</div>
