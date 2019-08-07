@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='rockpool.xml' b:templateVersion='1.3.0' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.3.0' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
    
 
@@ -73,23 +73,23 @@
   <Variable name="body.background.color" description="Body background color" type="color" default="#fff"  value="#ffffff"/>
   <Variable name="body.text.font" description="Font" type="font" default="$(loraNormal20)"  value="normal normal 20px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
   <Variable name="body.text.color" description="Color" type="color" default="#292929"  value="#292929"/>
-  <Variable name="body.link.color" description="Link color" type="color" default="#25a186"  value="#ff0000"/>
-  <Variable name="body.link.visited.color" description="Visited link color" type="color" default="$(body.link.color)"  value="#ff0000"/>
-  <Variable name="body.link.hover.color" description="Link Hover Color" type="color" default="$(body.link.color)"  value="#ff0000"/>
+  <Variable name="body.link.color" description="Link color" type="color" default="#ff0000"  value="#ff0000"/>
+  <Variable name="body.link.visited.color" description="Visited link color" type="color" default="#ff0000"  value="#ff0000"/>
+  <Variable name="body.link.hover.color" description="Link Hover Color" type="color" default="#ff0000"  value="#ff0000"/>
   <Variable name="blog.title.font" description="Blog Title Font" type="font" default="$(openSansBold24)"  value="normal bold 24px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-  <Variable name="blog.title.color" description="Blog Title Color" type="color" default="#000"  value="#ff0000"/>
+  <Variable name="blog.title.color" description="Blog Title Color" type="color" default="#ff0000"  value="#ff0000"/>
 </Group>
 
 <Group description="Featured post" selector=".heroPost">
-  <Variable name="heropost.main.background.color" description="Featured post main background color" type="color" default="#25a186"  value="#ff0000"/>
+  <Variable name="heropost.main.background.color" description="Featured post main background color" type="color" default="#ff0000"  value="#ff0000"/>
   <Variable name="heropost.main.title.color" description="Featured post main title color" type="color" default="#fff"  value="#ffffff"/>
   <Variable name="heropost.main.text.color" description="Featured post main text color" type="color" default="#fff"  value="#ffffff"/>
   <Variable name="heropost.main.button.color" description="Featured post main buttons color" type="color" default="#fff"  value="#ffffff"/>
-  <Variable name="heropost.main.link.color" description="Featured post main link color" type="color" default="#173752"  value="#ffffff"/>
+  <Variable name="heropost.main.link.color" description="Featured post main link color" type="color" default="#fff"  value="#ffffff"/>
   <Variable name="heropost.secondary.background.color" description="Featured post background color (secondary)" type="color" default="#e5f0ee"  value="#e5f0ee"/>
   <Variable name="heropost.secondary.text.color" description="Featured post text color (secondary)" type="color" default="#000"  value="#000000"/>
   <Variable name="heropost.secondary.button.color" description="Featured post buttons color (secondary)" type="color" default="#25a186"  value="#ff0000"/>
-  <Variable name="heropost.secondary.dropcap.color" description="Featured post drop cap color (secondary)" type="color" default="$(heropost.secondary.button.color)"  value="#ff0000"/>
+  <Variable name="heropost.secondary.dropcap.color" description="Featured post drop cap color (secondary)" type="color" default="#ff0000"  value="#ff0000"/>
 </Group>
 
 <Group description="Header" selector=".centered-top-firstline">
@@ -97,9 +97,9 @@
   <Variable name="header.background.color" description="Background color" type="color" default="#fff"  value="#ffffff"/>
   <Variable name="header.description.font" description="Description font" type="font" default="$(openSansNormal14)"  value="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
   <Variable name="header.description.color" description="Description Color" type="color" default="rgba(0,0,0,0.54)"  value="rgba(0,0,0,0.54)"/>
-  <Variable name="header.pages.color" description="Page list color" type="color" default="#25a186"  value="#ff0000"/>
-  <Variable name="header.pages.selected.color" description="Page list color (selected page)" type="color" default="$(header.pages.color)"  value="#ff0000"/>
-  <Variable name="header.items.color" description="Text color" type="color" default="#25a186"  value="#ff0000"/>
+  <Variable name="header.pages.color" description="Page list color" type="color" default="#ff0000"  value="#ff0000"/>
+  <Variable name="header.pages.selected.color" description="Page list color (selected page)" type="color" default="#ff0000"  value="#ff0000"/>
+  <Variable name="header.items.color" description="Text color" type="color" default="#ff0000"  value="#ff0000"/>
   <Variable name="header.items.font" description="Text font" type="font" default="$(openSansSemibold14)"  value="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
 </Group>
 
@@ -109,13 +109,13 @@
 
 <Group description="Feed" selector=".widget.Blog">
   <Variable name="feed.title.font" description="Post title font" type="font" default="$(openSansBold36)"  value="normal bold 36px Cantarell"/>
-  <Variable name="feed.title.color" description="Post title color" type="color" default="#25a186"  value="#ff0000"/>
+  <Variable name="feed.title.color" description="Post title color" type="color" default="#ff0000"  value="#ff0000"/>
   <Variable name="feed.subtitle.font" description="Post subtitle font" type="font" default="$(openSansSemibold16)"  value="normal normal 16px Cantarell"/>
   <Variable name="feed.subtitle.color" description="Post subtitle color" type="color" default="rgba(0,0,0,0.54)"  value="#999999"/>
   <Variable name="feed.text.font" description="Post text font" type="font" default="$(loraNormal20)"  value="normal normal 16px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
   <Variable name="feed.text.color" description="Post text color" type="color" default="rgba(0,0,0,0.84)"  value="#666666"/>
   <Variable name="feed.button.font" description="Button font" type="font" default="$(openSansSemibold14)"  value="normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-  <Variable name="feed.button.color" description="Button color" type="color" default="#25a186"  value="#ff0000"/>
+  <Variable name="feed.button.color" description="Button color" type="color" default="#ff0000"  value="#ff0000"/>
 </Group>
 
 <Group description="Sharing" selector=".sharing">
@@ -125,11 +125,11 @@
       default="$(body.background.color)"  value="#ffffff"/>
   <Variable name="sharing.text.color" description="Sharing text color"
       type="color"
-      default="$(feed.button.color)"  value="#ff0000"/>
+      default="#ff0000"  value="#ff0000"/>
   <Variable name="sharing.icons.color"
       description="Sharing icons color"
       type="color"
-      default="$(sharing.text.color)"  value="#ff0000"/>
+      default="#ff0000"  value="#ff0000"/>
 </Group>
 
 <Group description="Dialogs" selector=".subscribe-popup">
@@ -138,18 +138,18 @@
   <Variable name="dialog.input.font" description="Dialog input font" type="font" default="$(openSansNormal14)"  value="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
   <Variable name="dialog.input.color" description="Dialog input color" type="color" default="rgba(0,0,0,0.84)"  value="rgba(0,0,0,0.84)"/>
   <Variable name="dialog.action.font" description="Dialog action font" type="font" default="$(openSansSemibold14)"  value="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-  <Variable name="dialog.action.color" description="Dialog action color" type="color" default="$(feed.button.color)"  value="#ff0000"/>
+  <Variable name="dialog.action.color" description="Dialog action color" type="color" default="#ff0000"  value="#ff0000"/>
 </Group>
 
 <Group description="Individual Post or Page" selector="body.item-page .widget.Blog">
   <Variable name="item.title.font" description="Font" type="font" default="$(openSansSemibold48)"  value="normal normal 48px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
   <Variable name="item.title.color" description="Post title color" type="color" default="#fff"  value="#ffffff"/>
-  <Variable name="item.title.background.color" description="Post title background color" type="color" default="#25a186"  value="#ff0000"/>
+  <Variable name="item.title.background.color" description="Post title background color" type="color" default="#ff0000"  value="#ff0000"/>
   <Variable name="item.subtitle.font" description="Post subtitle font" type="font" default="$(openSansSemibold16)"  value="normal normal 16px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
   <Variable name="item.subtitle.color" description="Post subtitle color" type="color" default="rgba(0,0,0,0.54)"  value="rgba(0,0,0,0.54)"/>
-  <Variable name="item.byline.color" description="Post byline color" type="color" default="#25a186"  value="#ff0000"/>
+  <Variable name="item.byline.color" description="Post byline color" type="color" default="#ff0000"  value="#ff0000"/>
   <Variable name="item.byline.font" description="Post byline font" type="font" default="$(openSansSemibold14)"  value="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-  <Variable name="item.action.color" description="Action color" type="color" default="#25a186"  value="#ff0000"/>
+  <Variable name="item.action.color" description="Action color" type="color" default="#ff0000"  value="#ff0000"/>
   <Variable name="item.action.font" description="Action font" type="font" default="$(openSansSemibold14)"  value="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
   <Variable name="item.label.font" description="Label font" type="font" default="$(openSansNormal14)"  value="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
   <Variable name="item.blockquote.font" description="Blockquote font" type="font" default="$(openSansSemiboldItalic44)"  value="italic normal 44px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
@@ -157,14 +157,14 @@
 
 <Group description="Sidebar" selector=".sidebar-container">
   <Variable name="sidebar.backgroundColor" description="Background color" type="color" default="$(body.background.color)"  value="#ffffff"/>
-  <Variable name="sidebar.icon.color" description="Icon color" type="color" default="#000"  value="#ff0000"/>
+  <Variable name="sidebar.icon.color" description="Icon color" type="color" default="#ff0000"  value="#ff0000"/>
   <Variable name="sidebar.separator.color" description="Separator color" type="color" default="#000"  value="#eeeeee"/>
   <Variable name="sidebar.widget.title.font" description="Gadget title font" type="font" default="$(openSansNormal16)"  value="normal normal 16px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
   <Variable name="sidebar.widget.title.color" description="Gadget title color" type="color" default="#000"  value="#000000"/>
   <Variable name="sidebar.profile.title.color" description="Profile name color" type="color" default="#000"  value="#000000"/>
   <Variable name="sidebar.profile.text.color" description="Profile description color" type="color" default="#000"  value="#000000"/>
   <Variable name="sidebar.profile.link.font" description="Profile link font" type="font" default="$(openSansSemibold16)"  value="normal normal 16px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-  <Variable name="sidebar.profile.link.color" description="Profile link color" type="color" default="$(body.link.color)"  value="#ff0000"/>
+  <Variable name="sidebar.profile.link.color" description="Profile link color" type="color" default="#ff0000"  value="#ff0000"/>
 </Group>
 
 
