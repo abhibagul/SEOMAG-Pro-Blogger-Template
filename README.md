@@ -3,6 +3,9 @@ SEO MAG PRO is seo optimized credit free blogger template. You can use it modify
 
 Get notification of new themes on facebook : <a href="https://www.facebook.com/blossomthemes/?ref=bookmarks" target="_blank">https://www.facebook.com/blossomthemes/</a>
 
+
+<h3>Customized blogger Template @ $25 : <a href="https://www.fiverr.com/s2/ceb7759ae8" target="_blank">https://www.fiverr.com/s2/ceb7759ae8</a></h3>
+
 <h2>Documentation</h2>
 <div class="entry-content">
 
